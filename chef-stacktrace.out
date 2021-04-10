@@ -1,0 +1,32 @@
+Generated at 2021-04-10 17:55:29 +0000
+SyntaxError: /root/chef/cookbooks/apache/recipes/default.rb:14: syntax error, unexpected =>, expecting ')'
+variables (:allow_override => "All")
+                           ^~
+/root/chef/cookbooks/apache/recipes/default.rb:14: syntax error, unexpected ')', expecting `end'
+...bles (:allow_override => "All")
+...                              ^
+/root/chef/cookbooks/apache/recipes/default.rb:16: syntax error, unexpected `end', expecting end-of-input
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/mixin/from_file.rb:34:in `instance_eval'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/mixin/from_file.rb:34:in `from_file'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/cookbook_version.rb:230:in `load_ruby_recipe'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/cookbook_version.rb:200:in `load_recipe'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/run_context.rb:393:in `load_recipe'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/run_context/cookbook_compiler.rb:174:in `block in compile_recipes'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/run_context/cookbook_compiler.rb:171:in `each'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/run_context/cookbook_compiler.rb:171:in `compile_recipes'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/run_context/cookbook_compiler.rb:79:in `compile'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/run_context.rb:223:in `load'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/policy_builder/expand_node_object.rb:103:in `setup_run_context'
+/opt/chef-workstation/embedded/lib/ruby/2.7.0/forwardable.rb:235:in `setup_run_context'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/client.rb:496:in `setup_run_context'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/client.rb:282:in `run'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/application.rb:305:in `run_with_graceful_exit_option'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/application.rb:281:in `block in run_chef_client'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/local_mode.rb:42:in `with_server_connectivity'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/application.rb:264:in `run_chef_client'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/application/base.rb:337:in `run_application'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/application.rb:67:in `run'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-16.10.8/lib/chef/application/solo.rb:60:in `run'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.7.0/gems/chef-bin-16.10.8/bin/chef-solo:24:in `<top (required)>'
+/usr/bin/chef-solo:355:in `load'
+/usr/bin/chef-solo:355:in `<main>'
